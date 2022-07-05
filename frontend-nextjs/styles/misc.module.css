@@ -1,0 +1,34 @@
+.quote {
+    font-style: italic;
+}
+
+.normal-weight {
+    font-weight: 400;
+}
+
+.bold-weight {
+    font-weight: 600;
+}
+
+.section {
+    padding: .4rem 1rem;
+    margin-bottom: 1rem;
+    color: #8d55a6;
+    border-radius: 1rem 0;
+    border: solid #eee;
+    border-width: 2px 1px 1px 2px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
+    box-shadow:
+        0.3px 0.5px 0.7px hsl(286deg 36% 56% / 0.36),
+        0.8px 1.6px 2px -0.8px hsl(286deg 36% 56% / 0.36),
+        2.1px 4.1px 5.2px -1.7px hsl(286deg 36% 56% / 0.36),
+        5px 10px 12.6px -2.5px hsl(286deg 36% 56% / 0.36);
+}
+
+.section a {
+    color: #55007b;
+}
+
+.section p {
+    margin: 1rem 0;
+}

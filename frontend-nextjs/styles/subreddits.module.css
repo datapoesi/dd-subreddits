@@ -1,0 +1,75 @@
+.subredditDescription {
+    max-width: 80ch;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.subredditsModule header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    color: #f9eaff;
+    margin-bottom: 0.5rem;
+}
+
+.subredditCard {
+    position: relative;
+    padding: .4rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem 0;
+    border: solid #eee;
+    border-width: 2px 1px 1px 2px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
+    box-shadow:
+        0.3px 0.5px 0.7px hsl(286deg 36% 56% / 0.36),
+        0.8px 1.6px 2px -0.8px hsl(286deg 36% 56% / 0.36),
+        2.1px 4.1px 5.2px -1.7px hsl(286deg 36% 56% / 0.36),
+        5px 10px 12.6px -2.5px hsl(286deg 36% 56% / 0.36);
+}
+
+.subredditCard:hover .subredditName>a {
+    color: #ae00ff;
+}
+
+.subredditName>a {
+    color: #55007b;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.subredditName>a::before {
+    bottom: 0;
+    content: '';
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.subredditDescription,
+.subredditSubscribers {
+    color: #8d55a6;
+}
+
+.showSubreddits>button {
+    padding: .4rem 1rem;
+    border-radius: 0.4rem;
+    background: linear-gradient(0deg, rgba(157, 85, 153, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
+    color: #55007b;
+}
+
+.showSubreddits>button:hover {
+    background: linear-gradient(0deg, rgba(157, 85, 153, 0.3) 0%, rgba(157, 85, 153, 0.6) 100%);
+    cursor: pointer;
+}
+
+.showSubreddits>span {
+    color: #8d55a6;
+    margin-left: 0.5rem;
+}

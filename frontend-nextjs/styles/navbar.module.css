@@ -1,0 +1,24 @@
+.navbar {
+    text-align: center;
+    color: #f9eaff;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar h1 {
+    font-weight: 700;
+    letter-spacing: -.05em;
+    line-height: 1;
+    margin-top: 1rem;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to bottom right, #590eff, #f81ce5);
+}
