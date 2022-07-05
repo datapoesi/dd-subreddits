@@ -29,7 +29,7 @@ export default function SubredditsModule() {
                 <div key={subreddit.name} className={styles.subredditCard}>
                     <div>
                         <div className={styles.subredditName}>
-                            <a href={`https://old.reddit.com/r/${subreddit.name}/top/?sort=top&t=month`} target="_blank">{subreddit.name}</a>
+                            <a href={`https://old.reddit.com/r/${subreddit.name}/top/?sort=top&t=month`} target="_blank" rel="noopener noreferrer">{subreddit.name}</a>
                         </div>
                         <div className={styles.subredditDescription}>{subreddit.desc}</div>
                     </div>

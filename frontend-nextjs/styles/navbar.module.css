@@ -1,14 +1,13 @@
 .navbar {
     text-align: center;
-    color: #f9eaff;
 }
 
 .navbar a {
     text-decoration: none;
-    color: inherit;
+    color: #f9eaff;
 }
 
-.navbar a:hover {
+.navbarItems a:hover {
     text-decoration: underline;
 }
 
